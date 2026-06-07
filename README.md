@@ -63,12 +63,11 @@ Trend Score = (Frequency × 0.5) + (Growth Rate × 0.3) + (Recency × 0.2)
 
 ### Step 1: Clone the Repository
 
-```bash
 git clone https://github.com/YOUR_USERNAME/AI-Trend-Detection-Agent.git
 cd AI-Trend-Detection-Agent
 
 ### Step 2: Install Dependencies
-bash
+
 pip install -r requirements.txt
 Step 3: Set Up Gemini API Key (For Chat Feature)
 Go to Google AI Studio
@@ -77,13 +76,11 @@ Click "Get API Key"
 Create a new API key
 Create a .env file in the project root:
 
-bash
 GEMINI_API_KEY=your_api_key_here
 
 Note: The app works without the API key, but the chat feature will use fallback responses.
 
 ### Step 4: Run the Application
-bash
 
 Usage Guide
 
@@ -191,15 +188,13 @@ requests           # API calls
 
 To verify the installation:
 
-bash
 python -c "import streamlit, pandas, sklearn; print('✅ All dependencies OK')"
 
 Then run the app:
 bash
 streamlit run app.py
 
-🔮 Future Enhancements
-
+Future Enhancements
 Real-time Twitter API integration 
 Multilingual trend detection
 Predictive trend forecasting
