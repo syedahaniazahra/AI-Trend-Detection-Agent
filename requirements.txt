@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+scikit-learn
+nltk
+matplotlib
+vaderSentiment
+google-generativeai
+python-dotenv
+plotly
+requests
