@@ -1,11 +1,11 @@
-# 🤖 AI Trend Detection Agent
+#  AI Trend Detection Agent
 
-## 📋 Project Overview
+## Project Overview
 
 An intelligent AI agent that automatically identifies, ranks, and summarizes trending topics from social media in real-time. The system uses Natural Language Processing (NLP), LDA topic modeling, sentiment analysis, and Google Gemini AI to provide actionable insights.
 
 
-## 🎯 Features
+## Features
 
 | Feature | Technology | Description |
 |---------|------------|-------------|
@@ -20,7 +20,7 @@ An intelligent AI agent that automatically identifies, ranks, and summarizes tre
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 ┌─────────────────────────────────────────────────────────────────┐
 │ USER INTERFACE │
 │ (Streamlit Dashboard) │
@@ -53,7 +53,7 @@ Trend Score = (Frequency × 0.5) + (Growth Rate × 0.3) + (Recency × 0.2)
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -140,16 +140,16 @@ Top Trending Topics
 
 Sentiment Analysis
 
-😊 Positive: 65% (98 posts)
-😞 Negative: 20% (30 posts)
-😐 Neutral: 15% (22 posts)
+ Positive: 65% (98 posts)
+ Negative: 20% (30 posts)
+ Neutral: 15% (22 posts)
 Overall: Positive
 
 Emerging Topics
 
-🚀 SpaceX Starship: ↑340% growth
-📈 Solid State Batteries: ↑180% growth
-📊 Google Gemini: ↑95% growth
+ SpaceX Starship: ↑340% growth
+ Solid State Batteries: ↑180% growth
+ Google Gemini: ↑95% growth
 
 
 📁 Project Structure
